@@ -1,7 +1,7 @@
 <?php
-$host = "your-rds-endpoint";
+$host = "database-1.cjeyou8gsodg.ap-south-1.rds.amazonaws.com";
 $username = "admin";
-$password = "your-db-password";
+$password = "admin123";
 $database = "webapp";
 
 // Create connection
@@ -11,4 +11,5 @@ $conn = new mysqli($host, $username, $password, $database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+echo "Connected successfully!";
 ?>
