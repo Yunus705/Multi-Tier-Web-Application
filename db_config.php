@@ -1,7 +1,7 @@
 <?php
-$servername = "your-db-endpoint"; // Replace with your RDS endpoint
+$servername = "database-1.cjeyou8gsodg.ap-south-1.rds.amazonaws.com"; // Replace with your RDS endpoint
 $username = "admin"; // Replace with your DB username
-$password = "password"; // Replace with your DB password
+$password = "admin123"; // Replace with your DB password
 $dbname = "webapp"; // Database name
 
 // Create connection
